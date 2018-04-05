@@ -1,3 +1,11 @@
+# Build directory
+/public
+
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
 # Logs
 logs
 *.log
