@@ -1,0 +1,11 @@
+{
+  "name": "neat-minds-homepage",
+  "version": "0.0.1",
+  "description": "Homepage of Neat Minds",
+  "main": "src/index.js",
+  "repository": "git@github.com:neat-minds/homepage.git",
+  "author": "Niklas Rasmusson <niklas@neatminds.se>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {}
+}
