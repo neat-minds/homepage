@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import 'normalize.css';
 
+import '~/components/BoxSizing';
+import '~/components/Theme';
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
