@@ -8,10 +8,18 @@ import './index.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Neat Minds"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' }
+        {
+          name: 'description',
+          content:
+            'Neat Minds is specialized in creating fast, responsive and user friendly web products. Emphasis is put on clean code, agile methodologies and fun.'
+        },
+        {
+          name: 'keywords',
+          content:
+            'web development, software development, front end, front-end, frontend, agile, lean, kanban, HTML5, Javascript, CSS, TDD'
+        }
       ]}
     />
     <Header />
