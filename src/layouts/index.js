@@ -14,7 +14,7 @@ const TemplateWrapper = ({ children }) => (
         {
           name: 'description',
           content:
-            'Neat Minds is specialized in creating fast, responsive and user friendly web products. Emphasis is put on clean code, agile methodologies and fun.'
+            'Neat Minds is specialized in creating fast, responsive and user friendly web products. Emphasis is put on clean code, agile methodologies and sustainable solutions.'
         },
         {
           name: 'keywords',
