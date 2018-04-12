@@ -1,9 +1,10 @@
 import { injectGlobal } from 'styled-components';
 
-import colors from './colors';
+export * from './colors';
+import { colorScheme } from './colors';
 
 injectGlobal`
 body {
-  background: ${colors.background}
+  background: ${colorScheme.concrete}
 }
 `;
