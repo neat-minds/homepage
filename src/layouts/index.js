@@ -6,6 +6,10 @@ import 'normalize.css';
 import '~/components/BoxSizing';
 import '~/components/Theme';
 
+import Header from '~/components/Header';
+import HeaderLogoWrapper from '~/components/HeaderLogoWrapper';
+import Logo from '~/components/Logo';
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
@@ -23,6 +27,11 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     />
+    <Header>
+      <HeaderLogoWrapper>
+        <Logo width="220px" />
+      </HeaderLogoWrapper>
+    </Header>
     <div>{children()}</div>
   </div>
 );
